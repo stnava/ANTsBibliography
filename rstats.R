@@ -1,5 +1,6 @@
 library(scholar) # https://github.com/jkeirstead/scholar
 library(visreg)
+library(pubmed.mineR)
 id<-"ox-mhOkAAAAJ"
 print( get_profile(id) )
 citehist<-get_citation_history(id)
